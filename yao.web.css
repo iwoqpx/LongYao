@@ -1,0 +1,278 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    margin: 0 auto;
+    background-color:#000000;
+    color:#fff;
+    font-family: "Forum", "Kudry Weird Headline";
+    font-style: normal;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.forum-regular {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Kudry Weird Headline';
+    src: url('fonts/Kudry-WeirdHeadline.eot');
+    src: url('fonts/Kudry-WeirdHeadline.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Kudry-WeirdHeadline.woff2') format('woff2'),
+        url('fonts/Kudry-WeirdHeadline.woff') format('woff'),
+        url('fonts/Kudry-WeirdHeadline.ttf') format('truetype'),
+        url('fonts/Kudry-WeirdHeadline.svg#Kudry-WeirdHeadline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+header{
+        max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 100px 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: #fff;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner h1 {
+    font-family: 'Kudry Weird Headline';
+    font-size: 55px;
+    margin-bottom:25px;
+}
+
+.banner p {
+    font-size: 25px;
+    max-width: 600px;
+
+}
+.ab{
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: visible;
+    height: 700px;
+}
+.about{ 
+
+    background-image: url('yao_img/back-about.svg');
+    background-size: cover;
+}
+
+.about img{
+    position: absolute;
+    z-index: 100;
+    overflow: visible;
+    width: 800px;
+}
+
+.about_us{
+    padding-left: 800px;
+}
+
+.about_us p {
+    font-size: 25px;
+    max-width: 600px;
+}
+
+.about_us h2 {
+    font-family: 'Kudry Weird Headline';
+    font-size: 50px;
+    margin-bottom:25px;
+}
+
+.catalog{
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.catalog h2{
+    font-family: 'Kudry Weird Headline';
+    font-size: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 370px;
+    font-family: 'Forum';
+}
+
+.card img{
+    width: 370px;
+}
+
+.card_title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card_title h3{
+    font-size: 25px;
+}
+
+.card_title p{
+    font-size: 20px;
+}
+
+.button {
+    background-color: #024688; 
+    color: white; 
+    padding: 12px 30px; 
+    border: none; 
+    font-size: 16px; 
+    font-family: "Forum";
+    cursor: pointer; 
+    text-align: center; 
+    width: 120px;
+}
+
+.button:hover {
+    background-color: #16305A; 
+    transition: all 0.2s ease-in-out;
+}
+
+.catalogs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+}
+
+.forma{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #23D5DA;
+}
+
+.forma h2{
+    font-family: 'Kudry Weird Headline';
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+input{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #17B2B7;
+    border-style: none;
+    color: #fff;
+}
+
+input::placeholder{
+    color: #fff;
+    font-family: 'Forum';
+    font-size: 20px;
+    line-height: 22px;
+}
+
+input:focus{
+    outline: 3px solid #fff;
+    color: #fff;
+    font-family: 'Forum';
+    font-size: 20px;
+    line-height: 22px;
+}
+
+label{
+    font-size: 25px;
+}
+
+form .butt {
+    background-color: rgba(0, 0, 0, 0); 
+    color: white; 
+    padding: 15px; 
+    border: 3px solid #fff;
+    font-size: 25px; 
+    font-family: "Forum";
+    cursor: pointer; 
+    text-align: center; 
+    width: 150px;
+}
+
+form .butt:hover {
+    background-color: #fff;
+    color: #23D5DA; 
+    transition: all 0.2s ease-in-out;
+}
+
+.vazy{
+    width: 500px;
+}
+
+footer{
+    padding: 20px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-logo{
+    height: 40px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    font-size: 30px;
+}
+
+.soc{
+    display: flex;
+    gap: 35px;
+}
